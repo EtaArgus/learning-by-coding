@@ -1,0 +1,21 @@
+// Audiences in Recommendation Systems
+digraph {
+	A [label="Data Sources"]
+	B [label="Demographic Data"]
+	C [label="Purchase Behavior"]
+	D [label="Google Analytics Data"]
+	E [label="Other Businesses Data (Paris, Easy)"]
+	F [label="Audience Segmentation"]
+	G [label="Recommendation Engine"]
+	H [label="Personalized Recommendations"]
+	A -> B
+	A -> C
+	A -> D
+	A -> E
+	B -> F [label="Demographic Data"]
+	C -> F [label="Purchase Behavior"]
+	D -> F [label="Google Analytics Data"]
+	E -> F [label="Other Businesses Data"]
+	F -> G [label="Segmented Audiences"]
+	G -> H [label=Recommendations]
+}
