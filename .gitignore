@@ -1,4 +1,6 @@
 .venv/
 autoencoders/data/
 recommendation-systems/data/
-deep-learning/pytorch/data/
+deep-learning/pytorch/data/.claude/
+
+.claude/
