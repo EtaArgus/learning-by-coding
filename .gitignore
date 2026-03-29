@@ -2,5 +2,6 @@
 autoencoders/data/
 recommendation-systems/data/
 deep-learning/pytorch/data/.claude/
-
 .claude/
+diffusion-models/data/
+recommendation-systems\als-implementation\online_retail.xlsx
